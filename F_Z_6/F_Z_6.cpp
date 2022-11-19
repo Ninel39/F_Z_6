@@ -52,20 +52,21 @@ int difference(int d1, int d2, int m1, int m2, int y1, int y2)
 }
 int main()
 {
-    int d1, d2, m1, m2, y1, y2;
-    cout << "Input first day: ";
-    cin >> d2;
-    cout << "Input first month: ";
-    cin >> m2;
-    cout << "Input first year: ";
-    cin >> y2;
-    cout << "Input second day: ";
-    cin >> d1;
-    cout << "Input second month: ";
-    cin >> m1;
-    cout << "Input second year: ";
-    cin >> y1;
-    cout << "Between these two dates are " << difference(d1, d2, m1, m2, y1, y2) << " days\n";
-    system("PAUSE");
+    SetConsoleOutputCP(1251);
+    int d1, d2, m1, m2, y1, y2;
+    cout << "Введите первый день: ";
+    cin >> d2;
+    cout << "Введите первый месяц: ";
+    cin >> m2;
+    cout << "Введите первый год: ";
+    cin >> y2;
+    cout << "Введите второй день: ";
+    cin >> d1;
+    cout << "Введите второй месяц: ";
+    cin >> m1;
+    cout << "Введите второй год: ";
+    cin >> y1;
+    cout << "Разность в днях между этими датами составляет " << Difference(d1, d2, m1, m2, y1, y2) << " дней.\n";
+    system("PAUSE");
 }
 
